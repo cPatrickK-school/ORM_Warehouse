@@ -1,14 +1,6 @@
 ## Farrenkopf
 ## 09.04.2026
 
-- [[#0. SETUP DB|0. SETUP DB]]
-- [[#1. APP. PROPS & HIBERNATE GENERATION|1. APP. PROPS & HIBERNATE GENERATION]]
-- [[#2. Ausarbeitung GK|2. Ausarbeitung GK]]
-- [[#3. Befüllen der DB (Endpunkte & Inserts)|3. Befüllen der DB (Endpunkte & Inserts)]]
-- [[#4. Fragen|4. Fragen]]
-- [[#5. Purchases|5. Purchases]]
-- [[#6. AI-gestützte Inhaltsanalyse|6. AI-gestützte Inhaltsanalyse]]
-- [[#7. Entries|7. Entries]]
 ### 0. SETUP DB
 
 Bei der DB habe mich für **PostgreSQL** entschieden, da ich mit dieser erfahrener bin. Als Externes Tool zum Bearbeiten der DB verwende ich **pgAdmin**. Wie folgt schaut meine DB-connection aus:
