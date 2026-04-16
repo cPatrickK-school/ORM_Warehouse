@@ -15,8 +15,23 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.projectlombok:lombok'
     runtimeOnly 'com.mysql:mysql-connector-j'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // Lombok library
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+
+    // Annotation processor for code generation during compilation
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    // If you are writing tests that use Lombok
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+
+    runtimeOnly 'org.postgresql:postgresql'
+
 }
 
 test {
